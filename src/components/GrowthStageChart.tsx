@@ -42,6 +42,7 @@ function GrowthStageChart() {
     chartRef.current = new Chart(ctx, {
       type: 'line',
       options: {
+        responsive: true,
         indexAxis: 'x',
         scales: {
             x: {
@@ -49,11 +50,11 @@ function GrowthStageChart() {
             }
         }
     },
+    
       data: {
         labels: data.map((point) => {
           const timestamp: number = point.time
           const date: Date = new Date(timestamp * 1000);
-
           const options: Intl.DateTimeFormatOptions = { month: 'short', day: '2-digit' };
           const formatedDate: string = date.toLocaleString('en-US', options);
 
@@ -103,7 +104,6 @@ function GrowthStageChart() {
               above: 'rgba(0, 255, 0, 0.4)', 
               below: 'rgba(0, 255, 0, 0.1)' 
             },
-         
             pointRadius: 0,
             borderColor: 'green',
           },
