@@ -1,46 +1,50 @@
-# Getting Started with Create React App
+# Challenge FieldPRO 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+LINK
 
-## Available Scripts
+![imagem do aplicativo](./src/assetsReadme/growthStageReadme.png)
 
-In the project directory, you can run:
+## Descrição
 
-### `npm start`
+Desafio técnico para o processo seletivo da fieldPRO a onde foi necessario desenvolver um gráfico e utilizar soluções com base em meus conhecimentos,
+A vaga refere-se a desenvolvedor Front End, onde obtive 6 dias para a entrega do resultado com os seguintes requerimentos 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [x] Fazer uma chamada API com os dados fornecidos neste link https://raw.githubusercontent.com/alexanderboliva/test/main/api_example.json;
+- [x] Criar um componente "GrowthStage", utilizando React, TypeScript e ChartJS;
+- [x] Mostrar os dados obtidos em um gráfico de crescimento;
+- [x] Criar componentes reutilizáveis e separar de preocupações;
+- [x] Tratar os erros e a capacidade de respostas da interface do usuário;
+- [] Seguir fielmente o designer
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Tecnologias
 
-### `npm test`
+- React
+- TypeScript
+- Chart.js
+- Styled Components
+- Axios
+- Vercel
+- Node
+- Git e Github
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Dificuldades
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Seguir fielmente o designer
+2. Trazer para o ChartJS a linguagem Typescript, pois muitas propriedades que traz o seu melhor funcionamento e designer esta dentro de JavaScript
+3. Seguir o pallet
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Soluções
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Analisar os dados e trazer para o usuario a melhor qualidade de visualização, acrescentando `cubicInterpolationMode:'monotone', curved, tension` entre outras propriedades que a biblioteca permitiu utilizar TypeScript
+2. Adaptar tudo o que realmente foi aceito dentro de TypeScript, buscar e testar propriedades e plugins.
+3. Utilizar a ferramenta canva Selector, para sabermos a cor que mais se aproxima da qual foi solicitada
 
-### `npm run eject`
+### Como rodar este projeto 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Git clone
+2. Instale as dependências com `npm install`
+3. Rode em seu terminal com `npm start`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+> Desde já agradeço a todos por essa oportunidade, foi um imenso prazer fazer parte desse processo seletivo, a onde me trouxe diversos aprendizados. 
+Aguardo o Feedback
