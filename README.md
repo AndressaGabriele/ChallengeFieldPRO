@@ -7,7 +7,7 @@
 
 ## Descrição
 
-Desafio técnico para o processo seletivo da fieldPRO a onde foi necessario desenvolver um gráfico e utilizar soluções com base em meus conhecimentos,
+Desafio técnico para o processo seletivo da fieldPRO onde foi necessario desenvolver um gráfico e utilizar soluções com base em meus conhecimentos,
 A vaga refere-se a desenvolvedor Front End, onde obtive 6 dias para a entrega do resultado com os seguintes requerimentos 
 
 - [x] Fazer uma chamada API com os dados fornecidos neste link https://raw.githubusercontent.com/alexanderboliva/test/main/api_example.json;
