@@ -15,7 +15,7 @@ A vaga refere-se a desenvolvedor Front End, onde obtive 6 dias para a entrega do
 - [x] Mostrar os dados obtidos em um gráfico de crescimento;
 - [x] Criar componentes reutilizáveis e separar de preocupações;
 - [x] Tratar os erros e a capacidade de respostas da interface do usuário;
-- [] Seguir fielmente o designer
+- [ ] Seguir fielmente o designer
 
 ### Tecnologias
 
